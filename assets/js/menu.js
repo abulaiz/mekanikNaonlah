@@ -1,38 +1,42 @@
-/* ---- FLy our Section For Aria Onepage HTML Template --- */
+var theToggle = document.getElementById('toggle');
 
-jQuery(document).ready(function($){
-	var $lateral_menu_trigger = $('.nav-trigger'),
-		$content_wrapper = $('.main');
+		// based on Todd Motto functions
+		// https://toddmotto.com/labs/reusable-js/
 
-	//open-close lateral menu clicking on the menu icon
-	$lateral_menu_trigger.on('click', function(event){
-		event.preventDefault();
-
-		$lateral_menu_trigger.toggleClass('is-active');
-		$content_wrapper.toggleClass('is-active').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-			// firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
-			$('body').toggleClass('overflow-hidden');
-		});
-		$('#ar-about').toggleClass('is-active');
-
-		//check if transitions are not supported - i.e. in IE9
-		if($('html').hasClass('no-csstransitions')) {
-			$('body').toggleClass('overflow-hidden');
+		// hasClass
+		function hasClass(elem, className) {
+			return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
 		}
-	});
-
-	//close lateral menu clicking outside the menu itself
-	$content_wrapper.on('mouseover', function(event){
-		if( !$(event.target).is('.nav-trigger, .nav-trigger span') ) {
-			$lateral_menu_trigger.removeClass('is-active');
-			$content_wrapper.removeClass('is-active').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-				$('body').removeClass('overflow-hidden');
-			});
-			$('#ar-about').removeClass('is-active');
-			//check if transitions are not supported
-			if($('html').hasClass('no-csstransitions')) {
-				$('body').removeClass('overflow-hidden');
+		// addClass
+		function addClass(elem, className) {
+			if (!hasClass(elem, className)) {
+				elem.className += ' ' + className;
 			}
 		}
-	});
-});
+		// removeClass
+		function removeClass(elem, className) {
+			var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
+			if (hasClass(elem, className)) {
+				while (newClass.indexOf(' ' + className + ' ') >= 0) {
+					newClass = newClass.replace(' ' + className + ' ', ' ');
+				}
+				elem.className = newClass.replace(/^\s+|\s+$/g, '');
+			}
+		}
+		// toggleClass
+		function toggleClass(elem, className) {
+			var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, " ") + ' ';
+			if (hasClass(elem, className)) {
+				while (newClass.indexOf(" " + className + " ") >= 0) {
+					newClass = newClass.replace(" " + className + " ", " ");
+				}
+				elem.className = newClass.replace(/^\s+|\s+$/g, '');
+			} else {
+				elem.className += ' ' + className;
+			}
+		}
+
+		theToggle.onclick = function () {
+			toggleClass(this, 'on');
+			return false;
+		}
