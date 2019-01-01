@@ -3,10 +3,13 @@
       <div class="logo2">
         <h2>
           <a href="index.html">
-            <span>C</span>ar
-            <span>S</span>ervices
+            <span>G</span>o -
+            <span>B</span>engkel
           </a>
         </h2>
+        <small class="text-white" style="font-style: italic;">Layanan service mobil online</small>
+
+        <p class="text-white">Untuk memenuhi tugas matakuliah Web Programming 2</p>
       </div>
       <!-- social icons -->
       <div class="agileinfo_social_icons my-4">
@@ -35,8 +38,10 @@
       </div>
       <!-- social icons -->
       <!-- copyright -->
-      <p class="copyright-w3ls"> &copy; 2018 Car Services. All Rights Reserved | Design by
-        <a href="http://w3layouts.com/"> W3layouts</a>
+      <p class="copyright-w3ls"> &copy; <?php 
+        echo date("Y");
+       ?> Go-Bengkel. All Rights Reserved | Design by
+        <a target="blank" href="http://w3layouts.com/"> W3layouts</a>
       </p>
       <!-- //copyright -->
     </div>

@@ -6,10 +6,10 @@
               <div class="container">
                 <div class="banner-info">
                   <h3 class="name text-white text-uppercase text-center">
-                    <span class="name-part w3l-text1">your</span>
-                    <span class="name-part w3l-text2">car</span>
-                    <span class="name-part w3l-text3">is always in great hands
-                      <label>with</label> us</span>
+                    <span class="name-part w3l-text1">service</span>
+                    <span class="name-part w3l-text2">mobil</span>
+                    <span class="name-part w3l-text3">
+                      <label>online</label> terpercaya</span>
                   </h3>
                 </div>
               </div>
@@ -20,10 +20,10 @@
               <div class="container">
                 <div class="banner-info">
                   <h3 class="name text-white text-uppercase text-center">
-                    <span class="name-part w3l-text1">we</span>
-                    <span class="name-part w3l-text2">love</span>
-                    <span class="name-part w3l-text3">your
-                      <label>car</label> the same as you do</span>
+                    <span class="name-part w3l-text1">dukungan</span>
+                    <span class="name-part w3l-text2">teknisi</span>
+                    <span class="name-part w3l-text3">
+                      <label>terbaik</label> dari kami</span>
                   </h3>
                 </div>
               </div>
@@ -34,10 +34,10 @@
               <div class="container">
                 <div class="banner-info">
                   <h3 class="name text-white text-uppercase text-center">
-                    <span class="name-part w3l-text1">your</span>
-                    <span class="name-part w3l-text2">car</span>
-                    <span class="name-part w3l-text3">is
-                      <label>always</label> in great hands with us</span>
+                    <span class="name-part w3l-text1">service</span>
+                    <span class="name-part w3l-text2">mudah</span>
+                    <span class="name-part w3l-text3">dan
+                      <label>fleksibel</label> dengan waktu</span>
                   </h3>
                 </div>
               </div>
@@ -48,10 +48,10 @@
               <div class="container">
                 <div class="banner-info">
                   <h3 class="name text-white text-uppercase text-center">
-                    <span class="name-part w3l-text1">we</span>
-                    <span class="name-part w3l-text2">love</span>
-                    <span class="name-part w3l-text3">your car the same as
-                      <label>you</label> do</span>
+                    <span class="name-part w3l-text1">teknisi</span>
+                    <span class="name-part w3l-text2">kami</span>
+                    <span class="name-part w3l-text3">datang
+                      <label>ke</label> rumah anda</span>
                   </h3>
                 </div>
               </div>

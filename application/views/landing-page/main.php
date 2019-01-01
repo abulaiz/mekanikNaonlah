@@ -22,11 +22,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <?php $this->view('landing-page/layanan'); ?>
   <!-- //services -->
   <!-- services -->
+    <?php $this->view('landing-page/sparepart'); ?>
+  <!-- //services --> 
+  <!-- services -->
     <?php $this->view('landing-page/cara-kerja'); ?>
   <!-- //services --> 
   <!-- contact -->
     <?php $this->view('landing-page/kontak'); ?>
   <!-- //contact -->
+  <!-- Modal Masuk -->
+  <?php $this->view('landing-page/masuk'); ?>
+  <!--//Modal Masuk  -->
   <!-- footer -->
     <?php $this->view('base/footer'); ?>
   <!-- //footer -->

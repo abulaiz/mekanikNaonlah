@@ -18,8 +18,13 @@ class Home extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
 	public function index()
 	{
-		$this->load->view('landing-page/main');
+		$this->load->model('layanan');
+		$this->load->model('sparepart');
+		$data['layanan'] = $this->layanan->all();
+		$data['sparepart'] = $this->sparepart->all();
+		$this->load->view('landing-page/main', $data);
 	}
 }

@@ -1,4 +1,4 @@
-  <div class="contact py-5" id="contact">
+  <div class="contact py-5" id="kontak">
     <div class="container py-xl-6 py-lg-3">
       <h3 class="title text-capitalize text-white text-center pb-3 mb-sm-5 mb-4">Kontak
         <span></span>

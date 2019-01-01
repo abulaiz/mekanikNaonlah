@@ -1,0 +1,15 @@
+.modal-title{
+	font-family: arial !important;
+	color: #7e7e7e;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.label{
+	margin-bottom: 10px;
+}
+
+.img-fluid{
+	height: 200px !important;
+	margin : 15px;
+}

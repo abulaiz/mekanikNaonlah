@@ -1,4 +1,4 @@
-  <div class="about py-5" id="about">
+  <div class="about py-5" id="cara_kerja">
     <div class="container py-xl-5 py-lg-3">
       <h3 class="title text-capitalize text-dark text-center pb-3 mb-sm-5 mb-4">Cara kerja
         <span></span>
@@ -16,18 +16,9 @@
           <h4 class="about-left-agile text-dark text-capitalize mb-2">
             Beli <span>Sparepart</span>
           </h4>
-          <p>Anda juga bisa hanya sekedar untuk membeli sparepart nya saja.</p>
-          <h4 class="about-left-agile text-dark text-capitalize mb-2">
-            Kami datang
-          </h4>
-          <p>Setelah anda memilih layanan, tim kami akan datang ke rumah anda sesuai waktu yang disepakati.</p>
-          <h4 class="about-left-agile text-dark text-capitalize mb-2">
-            Kami jawab
-          </h4>
-          <p>Anda juga bisa mengajukan beberapa pertanyaan berkaitan dengan Go-Bengkel ataupun mengenai kendaraan anda pada sistem kami.</p>
-          
+          <p>Anda juga bisa hanya sekedar untuk membeli sparepart nya saja.</p>          
         </div>
-        <div class="col-lg-5 aboutright ml-2 mr-sm-0">
+        <div class="col-lg-5">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -54,7 +45,21 @@
               <span class="sr-only">Selanjutnya</span>
             </a>
           </div>
-        </div>        
+        </div> 
+        <div class="col-lg-11 row">
+          <div class="col-md-6">
+            <h4 class="about-left-agile text-dark text-capitalize mb-2">
+              Kami datang
+            </h4>
+            <p>Setelah anda memilih layanan, tim kami akan datang ke rumah anda sesuai waktu yang disepakati.</p>            
+          </div>
+          <div class="col-md-6">
+          <h4 class="about-left-agile text-dark text-capitalize mb-2">
+            Kami jawab
+          </h4>
+          <p>Anda juga bisa mengajukan beberapa pertanyaan berkaitan dengan Go-Bengkel ataupun mengenai kendaraan anda pada sistem kami.</p>        
+          </div>          
+        </div>       
       </div>
     </div>
   </div>

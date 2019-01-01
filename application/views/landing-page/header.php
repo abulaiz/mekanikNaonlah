@@ -16,25 +16,19 @@
             <div id="menu" class="menustyles">
               <ul class="list-unstyled">
                 <li>
-                  <a href="index.html">Home</a>
+                  <a href="#" data-toggle="modal" data-target="#masuk">Masuk / Daftar</a>
                 </li>
                 <li>
-                  <a href="#about" class="scroll">About</a>
+                  <a href="#layanan" class="scroll">Layanan</a>
                 </li>
                 <li>
-                  <a href="#services" class="scroll">Services</a>
+                  <a href="#sparepart" class="scroll">Sparepart</a>
                 </li>
                 <li>
-                  <a href="#team" class="scroll">Team</a>
+                  <a href="#cara_kerja" class="scroll">Cara Kerja</a>
                 </li>
                 <li>
-                  <a href="#gallery" class="scroll">Gallery</a>
-                </li>
-                <li>
-                  <a href="#testi" class="scroll">Testimonials</a>
-                </li>
-                <li>
-                  <a href="#contact" class="scroll">Contact Us</a>
+                  <a href="#kontak" class="scroll">Kontak</a>
                 </li>
               </ul>
             </div>
