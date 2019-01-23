@@ -9,7 +9,7 @@
 					</button>
 				</div>
 				<div class="modal-body" style="padding: 30px;">
-	              <form class="form-horizontal form-simple" action="" method="POST">
+	              <form class="form-horizontal form-simple" action="auth/login" method="POST">
 	                <fieldset class="form-group position-relative has-icon-left mb-0">
 	                  <input class="form-control form-control-lg input-lg" id="user-name" autocomplete="off" type="email" name="email" placeholder="Email">                            
 	                </fieldset>

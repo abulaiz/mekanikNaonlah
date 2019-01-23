@@ -7,8 +7,8 @@
 	function notify(from, align, icon, type, animIn, animOut){
 		$.growl({
 			icon: icon,
-			title: ' Bootstrap Growl ',
-			message: 'Turning standard Bootstrap alerts into awesome notifications',
+			title: ' Selamat datang ',
+			message: 'Anda Sekarang telah terdaftar di website kami',
 			url: ''
 		},{
 				element: 'body',

@@ -19,37 +19,38 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       <div class="d-flex">
         <div class="col-lg-12 contact-right">
           <div class="w3l-agile">
-            <form action="#" method="post" class="row">
+            <form action="register/store" method="post" class="row">
               <div class="col-lg-6">
                 <h4 class="text-white">Info dasar</h4><br>
                 <div class="form-group">
                   <label class="text-white label">Nama Lengkap</label>
-                  <input type="text" name="name" placeholder="Nama Lengkap" class="form-control" required>
+                  <input type="text" name="nama" placeholder="Nama Lengkap" class="form-control" required>
                 </div>
                 <div class="form-group">
                   <label class="text-white label">Jenis Kelamin</label>
-                  <select class="form-control" name="gender">
+                  <select class="form-control" name="jenis_kelamin">
                     <option value="">--Pilih satu--</option>
-                    <option value="Laki-laki">Laki-laki</option>
-                    <option value="Perempuan">Perempuan</option>
+                    <option value="L">Laki-laki</option>
+                    <option value="P">Perempuan</option>
                   </select>
                 </div>
                 <div class="form-group">
                   <label class="text-white label">Alamat</label>
-                  <textarea name="message" placeholder="Alamat lengkap" class="form-control" required=""></textarea>
+                  <textarea name="alamat" placeholder="Alamat lengkap" class="form-control" required=""></textarea>
                 </div>                
               </div>
               <div class="col-lg-6">
                 <h4 class="text-white">Info akun</h4><br>
                 <div class="form-group">
                   <label class="text-white label">Email</label>
-                  <input type="email" name="subject" placeholder="example@example.com" class="form-control" required="">
+                  <input type="email" name="email" placeholder="example@example.com" class="form-control" required="">
                 </div>
                 <div class="form-group">
                   <label class="text-white label">Password</label>
-                  <input type="password" name="phone number" placeholder="Password" class="form-control" required="">
+                  <input type="password" name="password" placeholder="Password" class="form-control" required="">
                 </div>
-                <input type="submit" value="Send">                
+                <br>
+                <button type="submit" class="btn btn-primary col-md-4 col-offset-4">Daftar</button>             
               </div>
             </form>
           </div>

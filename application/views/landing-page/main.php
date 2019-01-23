@@ -9,6 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <?php $this->view('base/head'); ?>
 <body>
   <!-- banner & header section -->
+
   <div class="main">
     <!-- header -->
     <?php $this->view('landing-page/header'); ?>
@@ -55,6 +56,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       }).addClass('ff')
   </script>
   <!-- //banner-slider -->
+
+
+  <link href="assets/swal/sweetalert.css" rel="stylesheet">
+
+  <script src="assets/swal/sweetalert.min.js"></script>
+
+
+  <script type="text/javascript">
+    <?php if($pesan == "success"): ?>
+    swal("Info!", "Anda telah logout!", "info");
+    <?php endif; ?>
+     <?php if($pesan == "failed"): ?>
+    swal("Maaf!", "Email atau password yang anda masukkan salah!", "error");
+    <?php endif; ?>   
+  </script>
 
   <!-- smooth scrolling -->
   <script src="assets/js/SmoothScroll.min.js"></script>

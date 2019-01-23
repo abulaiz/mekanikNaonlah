@@ -18,8 +18,24 @@ class Dashboard extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	public function __construct(){
+		parent::__construct();
+		$this->load->helper('url');
+		if(!$this->session->has_userdata("username")){
+			redirect('/', 'refresh'); 		
+		}
+				
+	}
+
 	public function index()
 	{
-		$this->load->view('user/dashboard');
+		$data["aktivitas"] = "active";
+		$data["layanan"] = "";
+		$data["pertanyaan"] = "";
+		$data["sparepart"] = "";
+
+		$data["pesan"] = $this->session->flashdata('success');
+		$this->load->view('user/dashboard', $data);
 	}
 }

@@ -19,10 +19,16 @@ class Home extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
+	public function __construct(){
+		parent::__construct();
+		$this->load->helper('url');
+		$this->load->model('layanan');
+		$this->load->model('sparepart');		
+	}
+
 	public function index()
 	{
-		$this->load->model('layanan');
-		$this->load->model('sparepart');
+		$data['pesan'] = $this->session->flashdata('pesan');
 		$data['layanan'] = $this->layanan->all();
 		$data['sparepart'] = $this->sparepart->all();
 		$this->load->view('landing-page/main', $data);

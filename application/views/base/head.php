@@ -16,6 +16,9 @@
   </script>
   <!--// Meta tag Keywords -->
 
+  <script type="text/javascript">
+    var main_url = "<?= str_replace("index.php", '', site_url()) ?>";
+  </script>
   <!-- Custom-Files -->
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <!-- Bootstrap-Core-CSS -->
